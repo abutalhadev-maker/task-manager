@@ -1,7 +1,7 @@
 # Task Board Application
 
 ## 🚀 Live Demo
-[Add your deployed URL here]
+https://task-board-manager.netlify.app/
 
 ## 📌 Objective
 A Task Board application with static authentication, task management, drag & drop functionality, and local storage persistence.
