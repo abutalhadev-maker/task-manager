@@ -1,0 +1,64 @@
+/* ===== GLOBAL ===== */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+/* ===== INPUTS ===== */
+input,
+select,
+textarea {
+  padding: 10px;
+  margin: 8px 0;
+  width: 90%;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.checkbox{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+/* ===== BUTTONS ===== */
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+button.danger {
+  background: #dc2626;
+}
+
+button.danger:hover {
+  background: #b91c1c;
+}
+
+/* ===== LOGIN PAGE ===== */
+.login-box {
+  width: 350px;
+  margin: 120px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* ===== TASK BOARD ===== */
+.board {
+  display: flex;
+  gap: 20px;
+}
