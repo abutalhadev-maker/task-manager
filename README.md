@@ -1,3 +1,77 @@
+# Task Board Application
+
+## 🚀 Live Demo
+[Add your deployed URL here]
+
+## 📌 Objective
+A Task Board application with static authentication, task management, drag & drop functionality, and local storage persistence.
+
+---
+
+## ✨ Features
+
+### Authentication
+- Static login (intern@demo.com / intern123)
+- Remember me functionality
+- Protected routes
+- Logout support
+
+### Task Board
+- Fixed columns: Todo, Doing, Done
+- Create / Edit / Delete tasks
+- Drag and drop tasks between columns
+- Search tasks by title
+- Filter by priority
+- Sort by due date
+- Reset board option
+
+### Persistence
+- Data stored in localStorage
+- Safe handling of missing data
+- State persists across refresh
+
+### Activity Log
+- Track task created
+- Track task edited
+- Track task moved
+- Track task deleted
+
+---
+
+## 🛠 Tech Stack
+- React (Vite)
+- React Router
+- Context API (State Management)
+- React Beautiful DnD
+- LocalStorage
+
+---
+
+## 🧠 Architecture Decisions
+
+### State Management
+Used Context API to manage authentication and board state globally.
+
+### Storage
+localStorage used for persistence without backend.
+
+### Component Design
+Reusable components:
+- TaskCard
+- Column
+- ActivityLog
+
+---
+
+## ⚙️ Setup Instructions
+
+```bash
+git clone <repo-url>
+cd task-board
+npm install
+npm run dev
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
